@@ -23,7 +23,7 @@ function BotsPage() {
 
 
   useEffect(() => {
-    fetch('http://localhost:3000/bots')
+    fetch('https://api.npoint.io/c86b490b4aa5d731cf26/bots')
       .then(res => res.json())
       .then(data => setBots(data))
   }, [])
